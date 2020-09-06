@@ -231,7 +231,7 @@ const TableComponent = (props) => {
                 {options.createBtn && (
                   <Button color="primary" className="p-1 ml-3">
                     <span onClick={options.navCreate}>
-                      <PlusSquare size={24} className="card-actions__svg__square" className="mr-2" />
+                      <PlusSquare size={24} className="card-actions__svg__square mr-2" />
                       <label>Create</label>
                     </span>
                   </Button>
