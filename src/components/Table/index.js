@@ -53,7 +53,7 @@ const TableComponent = (props) => {
           borderBottomStyle: 'none',
         },
         '&:nth-child(odd)': {
-          backgroundColor: '#f8f8f8',
+          backgroundColor: '#d6e9f2',
           borderRadius: '8px',
         },
       },
