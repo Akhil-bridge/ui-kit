@@ -1,8 +1,9 @@
 {
   "name": "dimiiland-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "dimiiland - Admin & Dashboard components [ReactJS]",
   "author": "akhil.h@bridge-global.com",
+  "main": "dist/index.js",
   "scripts": {
     "sass:compile": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/assets/scss/ -o public/css/",
     "sass:autoprefixer": "postcss public/css/*.css --use autoprefixer -d public/css",
