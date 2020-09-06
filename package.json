@@ -1,9 +1,8 @@
 {
-  "name": "dimiiland-react",
-  "version": "3.3.1",
-  "description": "Spark - Admin & Dashboard Template [ReactJS]",
-  "author": "Paul Laros <support@bootlab.io>",
-  "private": true,
+  "name": "dimiiland-ui",
+  "version": "1.0.0",
+  "description": "dimiiland - Admin & Dashboard components [ReactJS]",
+  "author": "akhil.h@bridge-global.com",
   "scripts": {
     "sass:compile": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/assets/scss/ -o public/css/",
     "sass:autoprefixer": "postcss public/css/*.css --use autoprefixer -d public/css",
