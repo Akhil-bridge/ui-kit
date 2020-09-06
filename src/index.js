@@ -8,7 +8,6 @@ export HeaderTitle from './components/HeaderTitle';
 export CInput from './components/Input';
 export Loader from './components/Loader';
 export Main from './components/Main';
-export NavbarComponent from './components/Navbar';
 export ScrollToTop from './components/ScrollToTop';
 export TableComponent from './components/Table';
 export Wrapper from './components/Wrapper';

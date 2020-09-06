@@ -14,7 +14,6 @@
 - CInput
 - Loader
 - Main
-- NavbarComponent
 - ScrollToTop 
 - TableComponent 
 - Wrapper 
