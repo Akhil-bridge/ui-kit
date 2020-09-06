@@ -1,0 +1,60 @@
+///**
+//* TYPOGRAPHY
+//*/
+
+//default for header
+@mixin font-header($line-height){
+  line-height: $line-height;
+}
+
+//default for paragraph, label and sidebar
+@mixin font-content($line-height){
+  line-height: $line-height;
+}
+
+p {
+  @include font-content(18px);
+  font-size: 12px;
+}
+label {
+  @include font-content(18px);
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+//default for button tag
+button {
+  line-height: 20px;
+  font-size: 14px;
+}
+
+// choose text-tarnsform with class
+.uppercase {
+  text-transform: uppercase !important;
+}
+.lowercase {
+  text-transform: lowercase !important;
+}
+.capitalize {
+  text-transform: capitalize !important;
+}
+.italic {
+  font-style: italic !important;
+}
+.bold {
+  font-weight: bold !important;
+}
+.underline {
+  text-decoration: underline !important;
+}
+.line-through {
+  text-decoration: line-through !important;
+}
+
+@for $i from 1 through 100
+{
+  .f--size__#{$i} {
+    font-size: #{$i}px !important;
+  }
+  $i: $i + 1;
+}

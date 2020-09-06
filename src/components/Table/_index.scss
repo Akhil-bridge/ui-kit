@@ -1,0 +1,17 @@
+.tableHeader {
+  .rdt_TableHead input{
+    display: none;
+  }
+}
+
+.card-actions {
+  .card-actions__svg__square {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .card-actions__svg__refresh {
+    width: 16px;
+    height: 16px;
+  }
+}
