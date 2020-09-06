@@ -16,6 +16,5 @@
 - Main
 - NavbarComponent
 - ScrollToTop 
-- Sidebar 
 - TableComponent 
 - Wrapper 
