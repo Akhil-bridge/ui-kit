@@ -1,6 +1,3 @@
-import 'react-app-polyfill/ie11';
-import 'react-app-polyfill/stable';
-
 export DetailAccordion from './components/Accordion';
 export AsyncComponent from './components/Async';
 export Checkbox from './components/Checkbox';
