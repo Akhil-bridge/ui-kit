@@ -4,6 +4,7 @@
   "description": "dimiiland - Admin & Dashboard components [ReactJS]",
   "author": "akhil.h@bridge-global.com",
   "main": "dist/index.js",
+  "module": "dist/index.esm.js",
   "scripts": {
     "sass:compile": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/assets/scss/ -o public/css/",
     "sass:autoprefixer": "postcss public/css/*.css --use autoprefixer -d public/css",
@@ -19,8 +20,17 @@
     "test:coverage": "jest --config ./jest.config.json --coverage --colors",
     "lint": "eslint src/**/*.js src/**/*.jsx",
     "build:new": "rm -rf dist && mkdir dist && babel src --out-dir dist",
-    "publish:npm": "rm -rf dist && mkdir dist &&  babel src/components -d dist --copy-files"
+    "publish:npm": "rm -rf dist && mkdir dist &&  babel src/components -d dist --copy-files",
+    "publish:akhil": "rollup -c"
   },
+  "peerDependencies": {
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "styled-components": "^5.1.1"
+  },
+  "files": [
+    "dist"
+  ],
   "eslintConfig": {
     "eslint": "recommended",
     "plugin": "react/recommended"
@@ -73,9 +83,14 @@
     "@babel/plugin-proposal-class-properties": "^7.10.4",
     "@babel/plugin-proposal-export-default-from": "^7.10.4",
     "@babel/plugin-transform-react-jsx": "^7.10.4",
-    "@babel/plugin-transform-runtime": "^7.10.5",
+    "@babel/plugin-transform-runtime": "^7.11.5",
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
+    "rollup": "^2.26.10",
+    "rollup-plugin-sass": "^1.2.2",
+    "@rollup/plugin-babel": "^5.2.0",
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-image": "^2.0.5",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "eslint": "^6.8.0",

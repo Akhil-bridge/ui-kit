@@ -1,7 +1,7 @@
-import React, {forwardRef} from 'react';Async
+import React, { forwardRef } from 'react';
 import { Input } from 'reactstrap';
 
-import './_index.scss'
+import './_index.scss';
 
 const Checkbox = forwardRef(({ onClick, ...rest }, ref) => {
   return (
