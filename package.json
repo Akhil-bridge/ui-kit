@@ -1,6 +1,6 @@
 {
   "name": "dimiiland-ui",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "dimiiland - Admin & Dashboard components [ReactJS]",
   "author": "akhil.h@bridge-global.com",
   "main": "dist/index.js",
@@ -20,6 +20,10 @@
     "test:coverage": "jest --config ./jest.config.json --coverage --colors",
     "lint": "eslint src/**/*.js src/**/*.jsx",
     "publish:npm": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Akhil-bridge/ui-kit"
   },
   "peerDependencies": {
     "react": "16.13.1",
