@@ -19,7 +19,7 @@
     "test:watch": "jest --config ./jest.config.json --watch",
     "test:coverage": "jest --config ./jest.config.json --coverage --colors",
     "lint": "eslint src/**/*.js src/**/*.jsx",
-    "publish:npm": "rollup -c"
+    "publish:npm": "webpack"
   },
   "repository": {
     "type": "git",
@@ -88,11 +88,7 @@
     "@babel/plugin-transform-runtime": "^7.11.5",
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
-    "rollup": "^2.26.10",
-    "rollup-plugin-sass": "^1.2.2",
-    "@rollup/plugin-babel": "^5.2.0",
-    "@rollup/plugin-commonjs": "^15.0.0",
-    "@rollup/plugin-image": "^2.0.5",
+    "clean-webpack-plugin": "^3.0.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "eslint": "^6.8.0",
@@ -105,6 +101,8 @@
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
     "react-test-renderer": "latest",
-    "redux-logger": "^3.0.6"
+    "redux-logger": "^3.0.6",
+    "webpack-cli": "^3.3.12",
+    "webpack-node-externals": "^2.5.2"
   }
 }
