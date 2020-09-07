@@ -1,6 +1,6 @@
 {
   "name": "dimiiland-ui",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "dimiiland - Admin & Dashboard components [ReactJS]",
   "author": "akhil.h@bridge-global.com",
   "main": "dist/index.js",
@@ -19,9 +19,7 @@
     "test:watch": "jest --config ./jest.config.json --watch",
     "test:coverage": "jest --config ./jest.config.json --coverage --colors",
     "lint": "eslint src/**/*.js src/**/*.jsx",
-    "build:new": "rm -rf dist && mkdir dist && babel src --out-dir dist",
-    "publish:npm": "rm -rf dist && mkdir dist &&  babel src/components -d dist --copy-files",
-    "publish:akhil": "rollup -c"
+    "publish:npm": "rollup -c"
   },
   "peerDependencies": {
     "react": "16.13.1",
