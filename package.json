@@ -1,6 +1,6 @@
 {
   "name": "dimiiland-ui",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "dimiiland - Admin & Dashboard components [ReactJS]",
   "author": "akhil.h@bridge-global.com",
   "main": "dist/index.js",
